@@ -1,0 +1,65 @@
+Git
+
+Comandos básicos para desempenho no terminal
+O que aprender?
+CMD
+•	Mudar de pastas
+Navegar entre pastas: cd / dir, cd / Windows
+•	Listar pastas
+ dir
+•	Criar pastas/arquivos
+ -mkdir
+
+•	Deletar pastas/arquivos
+del/rmdir Workspace  /S /Q 
+
+Windows:
+Retornar uma pasta:
+cd . .
+Limpar terminal:
+Cls , Ctrl+L
+Criar um arquivo:
+echo hello > hello.txt 
+
+Atalho  TAB: completa palavras
+
+Como funciona por baixo dos panos?
+O que sha1?  
+•	Conjunto de funções hash criptografadas projetada NSA agencia de segurança nacional americana.  
+•	Conjunto de 40 digitos 
+•	Forma curta de representar um arquivo
+•	Ex: openssl sha1 nome do arquivo
+Objetos internos do Git
+Blobs = guardam meta dados do git, tipo do objeto, tamanho do arquivo 
+Thees = armazena blobs, e nome do arquivo
+Commits= aponta para uma tree, ultimo commit, um autor, uma msg
+Pesquisar no google
+Chaves SSh
+Conexão segura e encripto grafada entre duas maquinas
+
+ Tokens
+Clonar repositório: Git clone url que quer clonar
+
+Iniciar  o git
+Git init  criando repositorio
+Obs: arquivo.md  Markdown 
+# tilulo nivel1
+## tilulo nivel2 ... Parece o h1, h2... de HTML
+Iniciar o versionamento
+Git add  *
+Criar um commit
+Git commit -m “ commit inicial”
+
+Untracked (não registrado)   	Unmodifeld 	 	Modifeld	 	staged
+Adiciona o arquivo
+			Edita o arquivo 	
+							Stage o arquivo 
+ Remove o arquivo
+							Commit  
+
+Git status : ajuda a monitorar os status dos arquivos
+Comando para mover arquivo 
+mv 
+Empurrar de um repositório local para um repositório remoto
+Git remote add origin     link 
+Git remote -v
