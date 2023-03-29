@@ -12,7 +12,7 @@ public class Main {
 
         Curso curso2 = new Curso();
         curso2.setTitulo("Java POO");
-        curso2.setDescricao("Programação Orientada a objetos com JAVA");
+        curso2.setDescricao("Programação Orientada a objetos - JAVA");
         curso2.setCargahoraria(10);
 
         Mentoria mentoria = new Mentoria();
